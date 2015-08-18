@@ -55,3 +55,14 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# PyCharm
+.name
+encodings.xml
+misc.xml
+modules.xml
+*/scopes/*
+vcs.xml
+workspace.xml
+*.iml
+george.xml
