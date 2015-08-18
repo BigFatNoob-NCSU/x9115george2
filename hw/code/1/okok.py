@@ -20,6 +20,18 @@ def _ok3():
 
 @ok
 def _ok4():
-  assert unittest.tries==4
-  assert unittest.fails==1
-  print unittest.score() 
+  assert True==1
+
+@ok
+def _ok5():
+  assert True==2
+
+@ok
+def _ok6():
+  assert True==(not(not 2))
+
+@ok
+def _ok7():
+  assert unittest.tries==6
+  assert unittest.fails==2
+  print unittest.score()
