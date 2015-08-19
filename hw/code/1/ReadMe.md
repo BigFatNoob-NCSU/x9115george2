@@ -13,7 +13,7 @@
 ![easy_install](img/easy_install.png)
 
 ## IDE
-![IDE](img/ide.png)
+![IDE](img/IDE.png)
 
 ## okok.py output
 ![Output](img/output.png)
