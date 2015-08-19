@@ -32,6 +32,6 @@ def _ok6():
 
 @ok
 def _ok7():
-  assert unittest.tries==6
+  assert unittest.tries==7
   assert unittest.fails==2
   print unittest.score()
