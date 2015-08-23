@@ -69,3 +69,6 @@ vcs.xml
 workspace.xml
 *.iml
 george.xml
+.idea/*
+Project_Default.xml
+profiles_settings.xml
