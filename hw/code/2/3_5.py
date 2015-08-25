@@ -20,5 +20,8 @@ def make_square(rows):
                 print '  ',
         print ''
 
+
+make_square(2)
+print "\n"
 make_square(4)
 
