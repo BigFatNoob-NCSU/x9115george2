@@ -1,5 +1,6 @@
 __author__ = 'panzer'
 
+
 def right_justify(s):
     if len(s) < 70 :
         prefix_length = 70 - len(s)
