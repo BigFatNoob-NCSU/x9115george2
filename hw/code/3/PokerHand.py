@@ -148,12 +148,14 @@ def estimate_probability(cards, num_hands, repeats=1000):
         for hand in hands:
             counts[hand.label] = counts.get(hand.label, 0) + 1
     total = num_hands * repeats
+    print("%-20s | %-20s" % ("Classification", "Probability"))
+    print("-"*40)
     for label in PokerHand.labels:
         count = counts.get(label, 0)
         prob = count / total
-        print("Probability of '%s' is %f " % (label, prob))
+        print("%-20s | %f " % (label, prob))
 
 
 if __name__ == '__main__':
-    estimate_probability(7, 7, 1000)
+    estimate_probability(7, 7, 10000)
 
