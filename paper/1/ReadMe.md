@@ -17,6 +17,15 @@
    * Traces using LSI : Maletic, J. I. and Marcus, A., "Using Latent Semantic Analysis to Identify Similarities in Source Code to Support Program Understanding", in Proceedings of 12th IEEE Int‟l Conf. on Tools with Artificial Intelligence, Vancouver, British Columbia, 2000, Nov 13-15, pp. 46-53.
    * Comparing machine learning techniques on trace results : Cleland-Huang, J., Czauderna, A., Gibiec, M., Emenecker, J., “A Machine Learning Approach for Tracing Regulatory Codes to Product Specific Requirements”, International Conf on Software Eng., Cape Town, South Africa, May, 2010.
    * Using Wikipedia to augent web based search queries : Hu, J., Wang, G., Lochovsky, F., Sun, J. and Chen, Z. Understanding user's query intent with wikipedia. 18th International Conference on World Wide Web, Madrid, Spain, April 20-24, 2009 (WWW'09). 471-480.
-  * (iii4) **New Results**
+  * (iii4) **New Results** :
+   * A combination of Bing, Google and Yahoo yielded the best results.
+   * Retrieving large number of documents did not yield improved results. Rather the top results obtained using the right query yielded better precision
+   * Smaller chunks yielded better precision(6/10) compared to larger chunks.
+   * Concept Generality ranged from 0.02-0.6, Domain Specificity Ranged from 10-140 and Term Frequency ranged from 0.1-0.9.
+   * The approach does not uniformly improve every trace query. THe augmented query returned only perfect scores for 7 of the 11 queries exibiting perfect result with the basic method.
 
-## (iv) Improvizations
+## (iv) Improvizations:
+  * (iv1) Search engines does not significantly change the precision. So they could have compared results against other methods.
+  * (iv2) Figures depicting new results vs base results would give a better insight would be better.
+  * (iv3) Along with precision and recall, measures of false alarm rate and g score would have given a better insight on the results
+
