@@ -9,6 +9,9 @@
   * (ii4)Text Mining  : Text mining is the process of retrieving relavant information from chunks of textual information. Feature weighting techniques like TF-IDF can be used to identify significant words. POSTaggers and stemmers can be used to remove insignificant words
 
 ## (iii) Artifacts
-
+  * (iii1) Motivation
+  * (iii2) Hypotheses
+  * (iii3) Related Work
+  * (iii4) New Results
 
 ## (iv) Improvizations
