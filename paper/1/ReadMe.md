@@ -3,10 +3,10 @@
 
 ## (ii) Keywords
 
-  * (ii1)Requirements : In a software system requirement is a functional need that a particular design, product or process must be able to perform.
-  * (ii2)Information Search : Information search refers to retrieving relevant information using various sources. Its a part of consumer decision process where a consumer looks for internal or external information(wiki).
-  * (ii3)Requirements Tracability : It defines the ability to track down the life of a requirement back to its source documents. The source documents can range from databases, spreadsheets, flat files etc.
-  * (ii4)Text Mining  : Text mining is the process of retrieving relavant information from chunks of textual information. Feature weighting techniques like TF-IDF can be used to identify significant words. POSTaggers and stemmers can be used to remove insignificant words
+  * (ii1)**Requirements** : In a software system requirement is a functional need that a particular design, product or process must be able to perform.
+  * (ii2)**Information Search** : Information search refers to retrieving relevant information using various sources. Its a part of consumer decision process where a consumer looks for internal or external information(wiki).
+  * (ii3)**Requirements Tracability** : It defines the ability to track down the life of a requirement back to its source documents. The source documents can range from databases, spreadsheets, flat files etc.
+  * (ii4)**Text Mining**  : Text mining is the process of retrieving relavant information from chunks of textual information. Feature weighting techniques like TF-IDF can be used to identify significant words. POSTaggers and stemmers can be used to remove insignificant words
 
 ## (iii) Artifacts
   * (iii1) **Motivation** : Automated Trace retrieval methods significantly reduce cost and effort involved in requirement traces. But many a times, it  is not possible to find relevant links for a query. In such cases a human needs to intervene to manually search for relavant links by modifying the query and/or rejecting links that are not helpful. In many non-trivial projects the number of search links are very large(in order of thousands). In such cases, it is hard to manually select or reject links. Techniques like Latent Semantic Indexing, Vector space models and probabilistic approaches show that although the traceablity effort in projects are reduced, the traces generated are not very precise and additionally required an analyst to evaluated the resuts to obtain the right set of links.
