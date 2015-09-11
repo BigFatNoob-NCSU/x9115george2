@@ -16,7 +16,7 @@ A machine learning approach for tracing regulatory codes to product specific req
   Web documents and services(wiki).
 
 ## (iii) Artifacts
-  * (iii1) **Motivation** : 
+  * (iii1) **Motivation** : Current methods for checking requirements compliance rely on standard software engineering practices of requirements traceablity which is the ability to track a requirement from its origins back to its rationale and downstream to various work products that implement that requirement in software. Manual tracing can be prohibitively time-consuming; however automated trace retrieval methods are not very effective due to the vocabulary mismatches that often occur between regulatory codes and product level requirements. Current(upto 2010) studies show that organizations struggle to implement successful and cost-effective traceability, primarily because creating, maintaining, and using traces is a time-consuming, costly, arduous, and error prone activity. Moreover efficient information retrieval and data mining techniques have not been explored based on the literature which leaves an avenue open.
   * (iii2) **Hypotheses** : 
   * (iii3) **Related Work** :
   * (iii4) **New Results** :
