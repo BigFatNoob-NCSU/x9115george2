@@ -27,9 +27,16 @@
      * Basic Automated methods yielded low precision values(Range of 0.02)
      * Additional error is introduced when human analysts are asked to evaluate a long list of candidate links genereated by the automated methods.
   * (iii4) **Related Work** :
+   * **_Traces using Vector Space Model_** : Hayes, J. H., Dekhtyar, A., and Sundaram, S., (2006), "Advancing Candidate Link Generation for Requirements Tracing: The Study of Methods", IEEE Transactions on Software Engineering, vol. 32, no. 1, January, pp. 4-19.
+   * **_Traces using probabilistic approaces_** : Cleland-Huang, J., Settimi, R., Duan, C., and Zou, X., (2005b), "Utilizing Supporting Evidence to Improve Dynamic Requirements Traceability", IEEE International Conference on Requirements Engineering (RE), pp. 135-144.
+   * **_Traces using Latent Semantic Indexing_** : Maletic, J. I. and Marcus, A., "Using Latent Semantic Analysis to Identify Similarities in Source Code to Support Program Understanding", in Proceedings of 12th IEEE Int‟l Conf. on Tools with Artificial Intelligence, Vancouver, British Columbia, 2000, Nov 13-15, pp. 46-53.
+   * **_Using Wikipedia to augent web based search queries_** : Hu, J., Wang, G., Lochovsky, F., Sun, J. and Chen, Z. Understanding user's query intent with wikipedia. 18th International Conference on World Wide Web, Madrid, Spain, April 20-24, 2009 (WWW'09). 471-480.
+   * **_General web knowledge to augment queries_** : Breaux, T.D. and Anton, A.I. Analyzing Regulatory Rules for Privacy and Security Requirements IEEE Transactions on Software Engineering, 2008, 5-20.
   * (iii5) **New Results** :
+   * The machine learning approach did not improve traceability for the five HIPAA goals that performed best under the basic traceability approach; however it did significantly improve results for four of the five HIPAA goals that had not previously performed well.
+   * The web mining approach outperformed the basic approach for three of the same HIPAA regulations that were improved by the machine learning method; these were access control, audit control and personal authentication. Although improvements in average precision were less than those achieved by the machine learning method, the human effort was also significantly less. The web mining approach also improved results for integrity which the machine learning approach had been unable to do. However the web-mining approach performed worse on four of the HIPAA regulations than either of the other methods.
 
 ## (iv) Improvisations:
-  * (iv1) 
-  * (iv2) 
-  * (iv3) 
+  * (iv1) Sources for tInformation retrieval and preprocessing techniques like stop word removal could have been provided.
+  * (iv2) Source code repository for implementation could have been given for future experiments.
+  * (iv3) Pearson's correlation technique was used for comparing the techniques. Rather, the authors could have used statistical ranking techniques like scott-knott to check if the techniques are statistically different from each other.
