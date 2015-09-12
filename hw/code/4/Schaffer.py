@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 __author__ = 'george'
 
-from time import gmtime, strftime
+from time import strftime
 import random, sys, math
 
 class Point:
@@ -119,7 +119,7 @@ def rand(start, stop, step=1):
   return random.randrange(start*mul, stop*mul, 1) * step
 
 
-def simulated_anneal(model, kmax=1000, cooling=0.8):
+def simulated_anneal(model, kmax=1500, cooling=1):
   """
   Performs simulated annealing on a model
   :param model: Instance of the model
@@ -149,6 +149,7 @@ def simulated_anneal(model, kmax=1000, cooling=0.8):
       key = " +"
       this, e_this = near, e_near
     elif anneal(e_this, e_near, (k/kmax)**cooling):
+    #elif anneal(e_this, e_near, 1 - k/kmax):
       key = " ?"
       this, e_this = near, e_near
     if e_this < e_best:
@@ -159,6 +160,7 @@ def simulated_anneal(model, kmax=1000, cooling=0.8):
       print(str(model.denorm(e_best)) + out)
       out = ""
   return best, model.denorm(e_best)
+
 
 def _test():
   """
