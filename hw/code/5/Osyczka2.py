@@ -2,6 +2,7 @@ from __future__ import print_function, division
 __author__ = 'george'
 
 import random, sys, math
+import numpy as np
 
 
 def rand(start, stop, step=1):
@@ -111,10 +112,12 @@ class Osyczka2():
     Create a random number between the range of decisions
     :return:
     """
-    generated = []
-    for dec in self.decisions:
-      generated.append(rand(dec.lo, dec.hi, dec.step))
-    return generated
+    while True:
+      generated = []
+      for dec in self.decisions:
+        generated.append(rand(dec.lo, dec.hi, dec.step))
+      if self.check_constraints(generated):
+        return generated
 
   def get_objective_extremes(self, repeats = 1000):
     """
@@ -134,6 +137,76 @@ class Osyczka2():
     return hi, lo
 
 
+
+def max_walk_sat(model, settings = None):
+  """
+  Traverse through the landscape based on
+  the max walk sat algorithm
+  :param model:
+  :param settings:
+  :return:
+  """
+  def default_settings():
+    """
+    Default Settings
+    """
+    return {
+      'max-tries'   : 1000,
+      'max-changes' : 100,
+      'prob'        : 0.5,
+      'steps'       : 10,
+      'threshold'   : 170 #Assuming its a maximization problem
+    }
+
+  def change_for_best(soln, index):
+    """
+    Modify an index in a solution that
+    leads to the best solution range in that index
+    """
+    t_evals = 0
+    lo = model.decisions[index].lo
+    hi = model.decisions[index].hi
+    delta = (hi - lo) / settings.get('steps')
+    best_soln, best_score = soln, -sys.maxint
+    for val in np.arange(lo, hi+delta, delta):
+      cloned = list(soln)
+      cloned[index] = val
+      t_status, t_score = model.eval(cloned)
+      t_evals += 1
+      if t_status and t_score > best_score:
+        best_soln, best_score = list(cloned), t_score
+    return best_soln, t_evals
+
+
+
+  if not settings:
+    settings = default_settings()
+  evals = 0
+  decs = model.decisions
+  solution = None
+  for i in range(settings['max-tries']):
+    solution = model.generate()
+    for j in range(settings['max-changes']):
+      status, score = model.eval(solution)
+      evals+=1
+      if status and score > settings.get('threshold'):
+        return solution
+      rand_index = random.choice(range(len(decs)))
+      if settings.get('prob') < random.random():
+        # TODO - Change random setting in that index
+        cloned = list(solution)
+        cloned[rand_index] = rand(decs[rand_index].lo,
+                                    decs[rand_index].hi,
+                                    decs[rand_index].step)
+        if model.check_constraints(cloned):
+          solution = cloned
+      else:
+        solution, int_evals = change_for_best(solution, rand_index)
+        evals += int_evals
+  return evals, solution
+
+
+
 def _test():
   """
   Dummy Test method.
@@ -147,6 +220,17 @@ def _test():
   dummy = Osyczka2(dec_hi, dec_lo)
   obj_hi, obj_lo = dummy.get_objective_extremes()
   print(obj_hi, obj_lo)
+
+  model = Osyczka2(dec_hi, dec_lo, obj_hi, obj_lo)
+  evals, best = max_walk_sat(model)
+  print("Evals : ", evals)
+  print("Best  : ", best)
+  f1, f2 = model.get_objectives(best)
+  print("F1    : ", f1)
+  print("F2    : ", f2)
+  print(model.eval(best))
+
+
 
 
 if __name__ == "__main__":
