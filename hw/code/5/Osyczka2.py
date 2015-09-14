@@ -1,6 +1,7 @@
 from __future__ import print_function, division
 __author__ = 'george'
 
+from time import strftime
 import random, sys, math
 import numpy as np
 
@@ -65,8 +66,16 @@ class Osyczka2():
     self.decisions = decisions
     self.objectives = [Point("f1 + f2", obj_hi, obj_lo)]
 
+  def __repr__(self):
+    return "#" + strftime("%Y-%m-%d %H:%M:%S") + "\nOsyczka2\n"
+
   @staticmethod
   def get_objectives(decisions):
+    """
+    Compute the objectives for an array of decisions
+    :param decisions:
+    :return:
+    """
     f1 = -(25*(decisions[0] - 2)**2 +
            (decisions[1] - 2)**2 +
            (decisions[2] - 1)**2 * (decisions[3]-4)**2 +
@@ -76,6 +85,11 @@ class Osyczka2():
 
   @staticmethod
   def check_constraints(decisions):
+    """
+    Check if the constraints are satisfied for a set of decisions
+    :param decisions:
+    :return:
+    """
     #g1(x)
     status = decisions[0] + decisions[1] - 2 >= 0
     #g2(x)
@@ -109,7 +123,8 @@ class Osyczka2():
 
   def generate(self):
     """
-    Create a random number between the range of decisions
+    Create a random decision.
+    If the constraints fail, a new decision is generated
     :return:
     """
     while True:
@@ -146,6 +161,7 @@ def max_walk_sat(model, settings = None):
   :param settings:
   :return:
   """
+  import pprint
   def default_settings():
     """
     Default Settings
@@ -177,10 +193,11 @@ def max_walk_sat(model, settings = None):
         best_soln, best_score = list(cloned), t_score
     return best_soln, t_evals
 
-
-
   if not settings:
     settings = default_settings()
+
+  print(model)
+  pprint.pprint(settings, width=1)
   evals = 0
   decs = model.decisions
   solution = None
@@ -194,12 +211,12 @@ def max_walk_sat(model, settings = None):
       rand_index = random.choice(range(len(decs)))
       if settings.get('prob') < random.random():
         # TODO - Change random setting in that index
-        cloned = list(solution)
-        cloned[rand_index] = rand(decs[rand_index].lo,
+        clone = list(solution)
+        clone[rand_index] = rand(decs[rand_index].lo,
                                     decs[rand_index].hi,
                                     decs[rand_index].step)
-        if model.check_constraints(cloned):
-          solution = cloned
+        if model.check_constraints(clone):
+          solution = clone
       else:
         solution, int_evals = change_for_best(solution, rand_index)
         evals += int_evals
@@ -210,27 +227,24 @@ def max_walk_sat(model, settings = None):
 def _test():
   """
   Dummy Test method.
-  1) Random runs schaffer to get the extremes for objectives
-  2) Once objectives are obtained its fed back into another instance of schaffer.
-  3) Simulated annealing is used on this model
+  1) Random runs osyczka2 to get the extremes for objectives
+  2) Once objectives are obtained its fed back into another instance of osyczka2.
+  3) Max Walk Sat is used on this model
   :return:
   """
   dec_hi = [10, 10, 5, 6, 6, 10]
   dec_lo = [0, 0, 1, 0, 1, 0]
   dummy = Osyczka2(dec_hi, dec_lo)
   obj_hi, obj_lo = dummy.get_objective_extremes()
-  print(obj_hi, obj_lo)
 
   model = Osyczka2(dec_hi, dec_lo, obj_hi, obj_lo)
   evals, best = max_walk_sat(model)
+  print("\n")
   print("Evals : ", evals)
   print("Best  : ", best)
   f1, f2 = model.get_objectives(best)
   print("F1    : ", f1)
   print("F2    : ", f2)
-  print(model.eval(best))
-
-
 
 
 if __name__ == "__main__":
