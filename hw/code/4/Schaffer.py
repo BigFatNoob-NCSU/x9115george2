@@ -119,7 +119,7 @@ def rand(start, stop, step=1):
   return random.randrange(start*mul, stop*mul, 1) * step
 
 
-def simulated_anneal(model, kmax=1500, cooling=1):
+def simulated_anneal(model, kmax=1500, cooling=5):
   """
   Performs simulated annealing on a model
   :param model: Instance of the model
@@ -130,7 +130,11 @@ def simulated_anneal(model, kmax=1500, cooling=1):
   def anneal(old, new, temp):
     a = math.e**((old - new)/temp)
     b = random.random()
-    return  a < b
+    return  a > b
+
+  def anneal_simple(temp):
+    return random.random() > temp
+
   print(model)
   print("Params    : ")
   print("\tkmax    : " + str(kmax))
@@ -140,7 +144,7 @@ def simulated_anneal(model, kmax=1500, cooling=1):
   e_this = model.eval(this)
   best, e_best = this, e_this
   out = ""
-  while k < kmax:
+  while k < kmax-1:
     k+=1
     near = model.neighbor(this, 1)
     e_near = model.eval(near)
@@ -148,8 +152,8 @@ def simulated_anneal(model, kmax=1500, cooling=1):
     if e_near < e_this :
       key = " +"
       this, e_this = near, e_near
-    elif anneal(e_this, e_near, (k/kmax)**cooling):
-    #elif anneal(e_this, e_near, 1 - k/kmax):
+    elif anneal(e_this, e_near, (1-(k/kmax))**cooling):
+    #elif anneal_simple(k/kmax):
       key = " ?"
       this, e_this = near, e_near
     if e_this < e_best:
