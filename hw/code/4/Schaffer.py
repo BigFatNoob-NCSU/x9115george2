@@ -119,7 +119,7 @@ def rand(start, stop, step=1):
   return random.randrange(start*mul, stop*mul, 1) * step
 
 
-def simulated_anneal(model, kmax=1500, cooling=5):
+def simulated_anneal(model, kmax=1000, cooling=5):
   """
   Performs simulated annealing on a model
   :param model: Instance of the model
