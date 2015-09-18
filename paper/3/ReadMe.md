@@ -1,6 +1,5 @@
 # Summary 
-## (i) Reference : Jian Hu, Gang Wang, Fred Lochovsky, Jian-tao Sun and Zheng Chen @ www 2009. 
-Understanding user's query intent with wikipedia. [Paper](https://http://dl.acm.org/citation.cfm?id=1526773)
+## (i) Reference : Jian Hu, Gang Wang, Fred Lochovsky, Jian-tao Sun and Zheng Chen @ www 2009. Understanding user's query intent with wikipedia. [Paper](https://http://dl.acm.org/citation.cfm?id=1526773)
 
 ## (ii) Keywords
 
