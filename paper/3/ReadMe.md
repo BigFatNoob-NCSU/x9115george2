@@ -33,6 +33,5 @@
    * **_Augmenting unlabeled data with semi supervised training_** : S. Beitzel, E. Jensen, O. Frieder, D. Lewis, A. Chowdhury, and A. Kolcz. Improving automatic query classification via semisupervised learning. In Proc. of the 5th IEEE International Conference on Data Mining(ICDM-05), 2005
 
 ## (iv) Improvisations:
-  * (iv1) 
-  * (iv2) 
-  * (iv3) 
+  * (iv1) They say that the graph processing takes linear time to obtain query results, but they do not mention that based on their methods, it would take polynomial time to construct the graph and also iteratively keep updating it.
+  * (iv2) They do not explain why they use ngrams of size 1 and 2. Probably, magic parameters but they should then have tried for different values or given appropriate justification
