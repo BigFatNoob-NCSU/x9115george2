@@ -84,3 +84,24 @@ class Model(O):
     :return: Normalized Decisions
     """
     return [self.decisions[i].norm(o) for i, o in enumerate(one)]
+
+  def all_inputs(self, index=0):
+    """
+    Heavy duty operation. Make sure you know what
+    you are doing. Returns all combinations input
+    at step 1
+    :param index: Index of the decision
+    :return:
+    """
+    ds = self.decisions
+    rets = []
+    if index == len(self.decisions)-1:
+      for val in range(ds[index].low, ds[index].high+1, 1):
+        rets.append([val])
+      return rets
+    else:
+      uppers = self.all_inputs(index+1)
+      for val in range(ds[index].low, ds[index].high+1, 1):
+        for upper in uppers:
+          rets.append([val]+upper)
+    return rets

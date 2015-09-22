@@ -15,7 +15,7 @@ class Osyczka2(Model):
     self.decisions.append(Decision("x5", 1,  5))
     self.decisions.append(Decision("x6", 0, 10))
     self.objectives = []
-    self.objectives.append(Objective("f1", -1920, -4, to_minimize=True))
+    self.objectives.append(Objective("f1", -1936, 0, to_minimize=True))
     self.objectives.append(Objective("f2", 2, 386, to_minimize=True))
 
 
@@ -59,14 +59,9 @@ class Osyczka2(Model):
     o = Osyczka2()
     f1s = []
     f2s = []
-    for i in range(6):
-      s = [0,0,1,0,1,0]
-      for j in range(i+1):
-        dec = o.decisions[j]
-        for val in range(dec.low, dec.high+1, 1):
-          s[j] = val
-          f1s.append(Osyczka2.f1(s))
-          f2s.append(Osyczka2.f2(s))
+    for one in o.all_inputs():
+      f1s.append(Osyczka2.f1(one))
+      f2s.append(Osyczka2.f2(one))
     print(min(f1s), max(f1s))
     print(min(f2s), max(f2s))
 
