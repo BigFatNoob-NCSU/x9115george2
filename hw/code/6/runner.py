@@ -8,6 +8,11 @@ from algorithms.simulated_annealing import SA
 from algorithms.max_walk_sat import MWS
 
 if __name__ == "__main__":
-  o = Kursawe()
-  a = MWS(o)
-  a.run()
+  for model in [Schaffer, Osyczka2, Kursawe]:
+    for optimizer in [SA, MWS]:
+      print("Optimizer : " + optimizer.__name__)
+      o = optimizer(model())
+      o.run()
+      print("* " * 30)
+      print("\n")
+

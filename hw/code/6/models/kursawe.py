@@ -6,6 +6,7 @@ from math import sqrt, sin
 class Kursawe(Model):
   def __init__(self):
     Model.__init__(self)
+    self.__name__ = Kursawe.__name__
     self.decisions=[]
     self.decisions.append(Decision("x1", -5, 5))
     self.decisions.append(Decision("x2", -5, 5))
