@@ -1,5 +1,5 @@
 from __future__ import print_function, division
-import sys, random
+import sys, random, math
 __author__ = 'george'
 
 """
@@ -32,6 +32,9 @@ class O():
 
   def __getitem__(self, item):
     return self.has().get(item)
+
+  def __setitem__(self, key, value):
+    self.has()[key] = value
 
 
 def norm(x, low, high):
@@ -78,4 +81,36 @@ def choice(lst):
   :param lst: List to select a random element
   :return: Return a random value
   """
-  random.choice(lst)
+  return random.choice(lst)
+
+def rand():
+  return random.random()
+
+def exp(val):
+  return math.e**val
+
+def avg(lst):
+  return sum(lst)/len(lst)
+
+def lt(a, b):
+  return a < b
+
+def gt(a, b):
+  return a > b
+
+def lte(a, b):
+  return a <= b
+
+def gte(a, b):
+  return a >= b
+
+def within(start, stop, step=1):
+  """
+  Generate a random number between a range
+  :param start: start value
+  :param stop: stop value
+  :param step: increment value
+  :return:
+  """
+  mul = int(1/step)
+  return random.randrange(start*mul, stop*mul, 1) * step

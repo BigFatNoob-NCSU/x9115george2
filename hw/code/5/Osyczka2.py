@@ -167,7 +167,7 @@ def max_walk_sat(model, settings = None):
     Default Settings
     """
     return {
-      'max-tries'   : 1000,
+      'max-tries'   : 10,
       'max-changes' : 100,
       'prob'        : 0.5,
       'steps'       : 10,
@@ -203,6 +203,7 @@ def max_walk_sat(model, settings = None):
   solution = None
   for i in range(settings['max-tries']):
     solution = model.generate()
+    out=""
     for j in range(settings['max-changes']):
       status, score = model.eval(solution)
       evals+=1
@@ -217,9 +218,19 @@ def max_walk_sat(model, settings = None):
                                     decs[rand_index].step)
         if model.check_constraints(clone):
           solution = clone
+          key = " ?"
+        else:
+          key = " ."
       else:
-        solution, int_evals = change_for_best(solution, rand_index)
+        cloned, int_evals = change_for_best(solution, rand_index)
         evals += int_evals
+        if cloned != solution:
+          key = " +"
+          solution = cloned
+        else:
+          key = " ."
+      out+=key
+    print(str(round(model.eval(solution, True)[1],2))+out)
   return evals, solution
 
 

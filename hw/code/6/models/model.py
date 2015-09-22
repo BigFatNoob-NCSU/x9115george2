@@ -43,7 +43,7 @@ class Model(O):
     self.constraints  = []
     self.population   = []
 
-  def generate(self, generator):
+  def generate(self, generator=uniform):
     while True:
       one = [generator(d.low, d.high) for d in self.decisions]
       status = self.evaluate_constraints(one)[0]
@@ -55,6 +55,7 @@ class Model(O):
     :param one: Set of decisions to evaluate
     :return: Evaluated set of objectives
     """
+    pass
 
   def evaluate_constraints(self, one):
     """
@@ -64,3 +65,6 @@ class Model(O):
     :return: Status of evaluation and value of offset if constraint fails
     """
     return True, None
+
+  def check_constraints(self, one):
+    return True
