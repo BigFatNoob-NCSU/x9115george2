@@ -7,8 +7,8 @@ from algorithm import *
 
 def default():
   return O(
-    gens        = 100,
-    max_changes = 10,
+    gens        = 10,
+    max_changes = 100,
     change_prob = 0.5,
     steps       = 10,
     threshold   = 170,
@@ -56,6 +56,7 @@ class MWS(Algorithm):
     front = Front()
     for _ in range(settings.gens):
       solution = model.generate()
+      out = ""
       for __ in range(settings.max_changes):
         evals += 1
         rand_index = choice(range(len(decs)))
@@ -65,9 +66,20 @@ class MWS(Algorithm):
                                     decs[rand_index].high)
           if model.check_constraints(clone):
             solution = clone
+            key = " ?"
+          else:
+            key = " ."
         else:
-          solution, int_evals = self.jiggle_solution(solution, rand_index)
+          cloned, int_evals = self.jiggle_solution(solution, rand_index)
           evals += int_evals
+          if cloned != solution:
+            key = " +"
+            solution = cloned
+          else:
+            key = " ."
+        out+=key
+      if settings.verbose:
+        print(model.evaluate(solution), out)
       front.update(Point(solution, model.evaluate(solution)))
     front.evals = evals
     return front
@@ -81,13 +93,20 @@ class MWS(Algorithm):
     lo = self.model.decisions[index].low
     hi = self.model.decisions[index].high
     delta = (hi - lo) / self.settings.step_size
-    best_soln, best_score = solution, -sys.maxint
+    best_soln, best_score = solution, sys.maxint
+    if self.settings.better == gt:
+      best_score = -best_score
     for val in np.arange(lo, hi+delta, delta):
       cloned = list(solution)
       cloned[index] = val
-      t_status, t_score = self.model.evaluate(cloned)
       t_evals += 1
-      if t_status and t_score > best_score:
+      if not self.model.check_constraints(cloned):
+        continue
+      objs = self.model.evaluate(cloned)
+      objs = self.model.norm_objectives(objs)
+      t_score = sum(objs)
+      t_evals += 1
+      if self.settings.better(t_score, best_score):
         best_soln, best_score = list(cloned), t_score
     return best_soln, t_evals
 

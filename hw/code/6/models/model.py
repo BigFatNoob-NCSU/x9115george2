@@ -68,3 +68,19 @@ class Model(O):
 
   def check_constraints(self, one):
     return True
+
+  def norm_objectives(self, one):
+    """
+    Normalize objectives
+    :param one: Objectives
+    :return: Normalized objectives
+    """
+    return [self.objectives[i].norm(o) for i, o in enumerate(one)]
+
+  def norm_decisions(self, one):
+    """
+    Normalize decisions
+    :param one: Decisions
+    :return: Normalized Decisions
+    """
+    return [self.decisions[i].norm(o) for i, o in enumerate(one)]
