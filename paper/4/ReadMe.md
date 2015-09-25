@@ -14,10 +14,16 @@
   * (iii3) **Sampling Procedures** : The Ice Breaker System (IBS) was initially described in and enhanced with requirements mined from documents obtained from the public work departments of Charlotte, Colorado; Greeley, Colorado; and the Region of Peel, Ontario.  The Ice Breaker system consists of 180 functional requirements, 72 classes, and 18 packages. The Event-Based Traceability (EBT) system, which was initially developed at the International Center for Software Engineering at the University of Illinois at Chicago, provides a dynamic traceability infrastructure based on the publish-subscribe scheme for maintaining artifacts during long-term change maintenance. It is composed of 54 requirements, 60 classes, and 8 packages. Artifacts in the third data set were reconstructed from the well documented Light Control system (LC) developed for the University of Kaiserslautern. This system controls the lights in a building based upon user defined lighting schemes, building occupation, and current exterior illumination. Our version of this system consisted of 36 requirements, 25 classes, and 5 packages. For each of these data sets UML diagrams were developed in Poseidon, exported to XMI and then parsed into the Poirot:Tracemaker tool. Requirements were entered directly into Poirot’s database. For analysis purposes, a traceability matrix was constructed that identified the true-links that the retrieval algorithm should attempt to retrieve. This matrix was used to evaluate the performance of each of the enhancement strategies in terms of recall and precision metrics.
   * (iii4) **Patterns and Anti Patterns** :
    * **_Patterns_** : 
+    *  Trace retrieval strategies must favor recall over precision, where recall measures the number of correctly retrieved documents out of the entire set of correct documents, and precision measures the number of correctly retrieved documents out of the set of retrieved documents.
+    *  Words that appear in fewer documents are considered to be more informative in defining the relevance of a document to the query.
+    *  The threshold values were selected by optimizing the objective function “maximize Recall + Precision, where Recall > T%”, where T% is a target recall chosen by the user. This is equivalent to finding the threshold value which maximizes both recall and precision while maintaining a sufficiently high recall level to effectively support requirements traceability.
+    *  In the trace retrieval problem the threshold is deliberately set low so that a high percentage of true-links will be recalled. Pairs of artifacts whose relevance scores appear below the threshold value can be safely assumed, with high degree of confidence, to be non-links.
+    *  Low confidence links were retrieved only if the average probability between the query and document’s cluster was greater than enhanced threshold. The algorithm is depicted below and can be applied to query side clustering by reversing the document and query terms in the algorithm. 
    * **_Anti Patterns_** :
-    *  
-  * (iii5) **Related Work** :
+    * If a query returns 70% of the critical links but fails to find the remaining 30%, then the query could be ineffective in supporting impact analysis, and a critical side effect of a proposed change could go unnoticed.
+    * The basic retrieval algorithm retrieves both of these links at similar probability values and is unable to filter out the incorrect link.
 
 ## (iv) Improvisations:
-  * (iv1) 
-  * (iv2)
+  * (iv1) Keywords for the paper could have been highlighted
+  * (iv2) The repository for the data used could have been provided to repeat the experiments.
+  * (iv3) Psuedocode or link to the codebase would have helped get a better picture of the approach
