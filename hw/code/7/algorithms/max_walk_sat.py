@@ -62,8 +62,7 @@ class MWS(Algorithm):
         rand_index = choice(range(len(decs)))
         if settings.change_prob < rand():
           clone = list(solution)
-          clone[rand_index] = within(decs[rand_index].low,
-                                    decs[rand_index].high)
+          clone[rand_index] = choice(decs[rand_index].range())
           if model.check_constraints(clone):
             solution = clone
             key = " ?"

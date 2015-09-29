@@ -20,6 +20,7 @@ class Golinski(Model):
     self.objectives.append(Objective("f2", 694.23, 1699.0, to_minimize=True))
 
   def check_constraints(self, d):
+    verbose = False
     """
     Check if the constraints are satisfied for a set of decisions
     :param d:  Decisions d to check constraints for.
@@ -48,7 +49,7 @@ class Golinski(Model):
     # g11(x)
     a = 745*d[4]/(d[1]*d[2])
     b = 1.575 * 10**8
-    status = status and ((a**2 + b**2)**0.5 / (0.1 * d[6]**3) <= 1100)
+    status = status and ((a**2 + b)**0.5 / (0.1 * d[6]**3) <= 1100)
     return status
 
   def evaluate(self, one):

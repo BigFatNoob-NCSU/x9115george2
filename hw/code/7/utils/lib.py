@@ -114,3 +114,6 @@ def within(start, stop, step=1):
   """
   mul = int(1/step)
   return random.randrange(start*mul, stop*mul, 1) * step
+
+def seed(val = None):
+  random.seed(val)

@@ -25,6 +25,12 @@ class Decision(O):
     """
     return max(self.low, min(val, self.high))
 
+  def range(self, delta = None):
+      if delta is None:
+        delta = min((self.high - self.low)/10 , 1)
+      n = int((self.high - self.low) / delta)
+      return [self.low + i*delta for i in range(n+1)]
+
 class Objective(O):
   def __init__(self, name, low=None, high=None, to_minimize=True):
     self.name = name
@@ -53,10 +59,14 @@ class Model(O):
     self.population   = []
 
   def generate(self, generator=uniform):
+    count = 0
     while True:
       one = [generator(d.low, d.high) for d in self.decisions]
       status = self.check_constraints(one)
-      if status: return one
+      count+=1
+      if status:
+        #print("CC : ", count)
+        return one
 
   def evaluate(self, one):
     """
