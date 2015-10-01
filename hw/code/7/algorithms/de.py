@@ -22,8 +22,7 @@ class DE(Algorithm):
       settings = default()
     Algorithm.__init__(self, model, settings)
 
-  @staticmethod
-  def dominates(obj1, obj2, better):
+  def dominates(obj1, obj2):
     """
     Static method to check if one objective
     dominate the other.
@@ -33,13 +32,31 @@ class DE(Algorithm):
     """
     at_least = False
     for a, b in zip(obj1, obj2):
-      if better(a,b):
+      if self.settings.better(a,b):
         at_least = True
       elif a == b:
         continue
       else:
         return False
     return at_least
+
+
+  def dominates_single(self, obj1, obj2):
+    """
+    Static method that uses fromHell to check
+    :param obj1: Objectives1
+    :param obj2: Objectives2
+    :param hells: List of worst values for each objective
+    :return: boolean indicating if obj1 dominates obj2
+    """
+    hells=self.model.hells()
+    def from_hell(obj):
+      norms = [self.model.objectives[i].norm(val) for i, val in enumerate(obj)]
+      return [abs(i-j) for i,j in zip(norms, hells)]
+    def energy(obj):
+      return 1-(sum(from_hell(obj))/len(obj))**0.5
+    return self.settings.better(energy(obj1), energy(obj2))
+
 
   @staticmethod
   def three_others(one, pop):
@@ -115,7 +132,8 @@ class DE(Algorithm):
           continue
         mutated_obj = mutant.evaluate(model)
         evals += 1
-        if DE.dominates(mutated_obj, original_obj, better=settings.better) and (not mutant in clones):
+        if self.dominates_single(mutated_obj, original_obj) and (not mutant in clones):
+        #if DE.dominates(mutated_obj, original_obj, better=settings.better):
           clones.remove(point)
           clones.append(mutant)
       pop = clones

@@ -130,3 +130,10 @@ class Model(O):
         for upper in uppers:
           rets.append([val]+upper)
     return rets
+
+  def hells(self):
+    """
+    Get the worst objective for
+    :return:
+    """
+    return [1 if obj.to_minimize else 0 for obj in self.objectives]
