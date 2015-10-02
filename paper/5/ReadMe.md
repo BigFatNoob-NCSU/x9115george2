@@ -17,6 +17,9 @@ coverage during testing. Traceability links between requirements and code can al
     * A major goal of impact analysis is the identification of the work products affected by a proposed change.
     * Means to trace code to free text documents are a sensible help to locate reuse-candidate components.
   * (iii2) **Hypotheses** : 
+    * Recovering traceability links between free text documentation and source-code components cannot be simply based on compiler techniques because of the difficulty of applying syntactic analysis to natural language sentences.
+    * The premise of the work is that programmers use meaningful names for program items, such as functions, variables, types, classes, and methods. The analysis of mnemonics can help to associate high-level concepts with program concepts, and vice-versa. The names of program items are used as a clue to suggest concepts implemented in the code.
+    * An assumption that programmers use meaningful names for their identifiers and/or that indetifiers are preprocessed to extract names that share the semantics of the requirements.
   * (iii3) **Commentary** :
   * (iii4) **New Results** :
 
