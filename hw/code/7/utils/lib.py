@@ -117,3 +117,9 @@ def within(start, stop, step=1):
 
 def seed(val = None):
   random.seed(val)
+
+def trunc(x, n=3):
+  if isinstance(x, list):
+    return [round(i, n) for i in x]
+  else:
+    return round(x, n)

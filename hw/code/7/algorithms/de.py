@@ -6,7 +6,7 @@ from algorithm import *
 
 def default():
   return O(
-    gens = 100,
+    gens = 20,
     candidates = 50,
     f = 0.75,
     cr = 0.3,
@@ -49,13 +49,7 @@ class DE(Algorithm):
     :param hells: List of worst values for each objective
     :return: boolean indicating if obj1 dominates obj2
     """
-    hells=self.model.hells()
-    def from_hell(obj):
-      norms = [self.model.objectives[i].norm(val) for i, val in enumerate(obj)]
-      return [abs(i-j) for i,j in zip(norms, hells)]
-    def energy(obj):
-      return 1-(sum(from_hell(obj))/len(obj))**0.5
-    return self.settings.better(energy(obj1), energy(obj2))
+    return self.settings.better(self.model.energy(obj1), self.model.energy(obj2))
 
 
   @staticmethod
@@ -123,19 +117,27 @@ class DE(Algorithm):
     pop = self.generate(settings.candidates)
     evals += settings.candidates
     for _ in range(self.settings.gens):
-      say(".")
+      out = ""
       clones = pop[:]
       for point in pop:
         original_obj = point.evaluate(model)
         mutant = self.mutate(point, pop)
+        key = " ."
         if not model.check_constraints(mutant.decisions):
+          key = " ?"
+          out += key
           continue
         mutated_obj = mutant.evaluate(model)
         evals += 1
         if self.dominates_single(mutated_obj, original_obj) and (not mutant in clones):
         #if DE.dominates(mutated_obj, original_obj, better=settings.better):
+          key = " +"
           clones.remove(point)
           clones.append(mutant)
+        out += key
+      if settings.verbose:
+        s_pop = sorted(pop, key=lambda x: model.energy(x.evaluate(model)), reverse=settings.better==gt)
+        print(trunc(s_pop[0].evaluate(model)), out)
       pop = clones
     front.points = pop
     front.evals = evals

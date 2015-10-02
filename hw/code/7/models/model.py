@@ -137,3 +137,10 @@ class Model(O):
     :return:
     """
     return [1 if obj.to_minimize else 0 for obj in self.objectives]
+
+  def from_hell(self, obj):
+    norms = [self.objectives[i].norm(val) for i, val in enumerate(obj)]
+    return [abs(i-j) for i,j in zip(norms, self.hells())]
+
+  def energy(self, obj):
+      return 1-(sum(self.from_hell(obj))/len(obj))**0.5

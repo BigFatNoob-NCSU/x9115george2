@@ -17,6 +17,7 @@ class Osyczka2(Model):
     self.objectives = []
     self.objectives.append(Objective("f1", -1936, 0, to_minimize=True))
     self.objectives.append(Objective("f2", 2, 386, to_minimize=True))
+    self.constraints = ["g1","g2","g3","g4","g5","g6"]
 
 
   @staticmethod

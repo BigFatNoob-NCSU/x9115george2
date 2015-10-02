@@ -18,6 +18,8 @@ class Golinski(Model):
     self.objectives = []
     self.objectives.append(Objective("f1", 2352.34, 7144.70, to_minimize=True))
     self.objectives.append(Objective("f2", 694.23, 1699.0, to_minimize=True))
+    self.constraints = ["g1","g2","g3","g4","g5","g6",
+                        "g7","g8","g9","g10","g11"]
 
   def check_constraints(self, d):
     verbose = False
