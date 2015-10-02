@@ -28,6 +28,7 @@ coverage during testing. Traceability links between requirements and code can al
     * The probabilistic model is more suitable for cases where the presence of code component identifiers that do not belong to the software document is low.
     * The vector space model does not aim for the best match, but rather to regularly achieve the maximum recall with a moderate number of retained documents.
     * Unlike the probabilistic model, the vector space model is able to achieve higher recall values based on a smaller number of relevant words in a source code component.
+
 ## (iv) Improvisations:
   * (iv1) The intution behind the formula for the probabilistic model could be better justified.
   * (iv2) The reason for the selection of the dataset was not specified.
