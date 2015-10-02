@@ -1,35 +1,32 @@
-# Coding HW 6
+# Coding HW 7
 
 ## Algorithms
-* Simulated Annealing
-* Max Walk Sat
+* Differential Evolution
 
 ## Models
 * Schaffer
 * Osyczka2
 * Kursawe
+* Golinski
+
+## Legend
+* **?** represents a mutant with a better global solution.
+* **+** represents a mutant with a better solution than its parent.
+* **.** represents a mutation that yields a mutant worse than its parent.
 
 ## Outputs
-### Schaffer on Simulated Annealing
+### Schaffer on DE
 
-![Schaffer Simulated Annealing](img/Schaffer_SA.png)
+![Schaffer DE](img/Schaffer_DE.png)
 
-### Schaffer on Max Walk Sat
+### Osyczka2 on DE
 
-![Schaffer Max Walk Sat](img/Schaffer_MWS.png)
+![Osyczka2 DE](img/Osyczka2_DE.png)
 
-### Osyczka2 on Simulated Annealing
+### Kursawe on DE
 
-![Osyczka2 Simulated Annealing](img/Osyczka2_SA.png)
+![Kursawe DE](img/Kursawe_DE.png)
 
-### Osyczka2 on Max Walk Sat
+### Golinski on DE
 
-![Osyczka2 Max Walk Sat](img/Osyczka2_MWS.png)
-
-### Kursawe on Simulated Annealing
-
-![Kursawe Simulated Annealing](img/Kursawe_SA.png)
-
-### Kursawe on Max Walk Sat
-
-![Kursawe Max Walk Sat](img/Kursawe_MWS.png)
+![Golinski DE](img/Golinski_DE.png)
