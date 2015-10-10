@@ -20,9 +20,22 @@
     * The proposed method advances the fundamental understanding about the role clustering plays in traceability, but also enables principled ways to increase the practicality of automated tracing tools.
   * (iii3) **Patterns / Anti-Patterns** :
     * **_Patterns_** :
+      * To improve system performance clustering is first performed and aand then the query is matched to the cluster centroids.
+      * Organizing and displaying the retrieved artifacts in topic-coherent clusters can facilitate the comprehension and evaluation of the search results.
+      * Pruning false positives to filter the result list can present the human analyst only a subset of retrieved links.
+      * Clustering is performed only after initial search. This makes clustering dynamic rather than static.
+      * Heurestics can be used automatically differentiate between high quality and low quality clusters.
+      * Filtering a link considers the similarity to the query as well as the cluster the link belongs to.
     * **_Anti Patterns_** :
-  * (iii4) **New Results** :
+      * As the number of documents increases, matching the query to all documents can degrade the system performance.
+      * The searchable artifacts in tracing consist of individual requirements, classes and test cases. Such a collection tends to be significantly smaller than the document collection targeted in a typical Web search or online library search. Therefore, the need of reducing the search space via document clustering is less pressing in requirements tracing.
+      * Ideally every requirement is concise, primitive, and unambiguous, the reality is that requirements can often be relatively long and may also contain superfluous information.
+  * (iii4) **Related Work** :
+    * **_Identifying candidate links using Vector Space Modeling_** : J. H. Hayes, A. Dekhtyar, and S. K. Sundaram, “Advancing candidate link generation for requirements tracing: the study of methods,” IEEE TSE, vol. 32(1), pp. 4–19, 2006.
+    * **_Applying Probabilistic Network Models for Traceability_** : J. Cleland-Huang, R. Settimi, C. Duan, and X. Zou, “Utilizing supporting evidence to improve dynamic requirements traceability,” in RE, 2005, pp. 135–144.
+    * **_Latent Semantic Indexing for candidate link generation_** : A. Marcus and J. I. Maletic, “Recovering documentation-to-source- code traceability links using latent semantic indexing,” in ICSE, 2003, pp. 125–137.
+    * **_Comparitive Study on all the state of the art methods_** : R. Oliveto, M. Gethers, D. Poshyvanyk, and A. De Lucia, “On the equivalence of information retrieval methods for automated traceabil- ity link recovery,” in ICPC, 2010, pp. 68–71.
 
 ## (iv) Improvisations:
-  * (iv1) 
-  * (iv2) 
+  * (iv1) The research questions could be addressed explicitly. It was hard to identify the solutions of the reseach questions within the paper.
+  * (iv2) Density Based Clustering methods can be used to identify the clusters. It could be used to identify frequent clusters.
