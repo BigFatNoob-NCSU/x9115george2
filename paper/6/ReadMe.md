@@ -15,7 +15,10 @@
     * Currently, IR-based tracing tools favor recall over pre- cision. This is mainly because commission errors (false positives) are easier to deal with than omission errors (false negatives). However, retrieving an excessive number of links can seriously affect the practicality of such tools.
     * The overarching goal of the proposed method is to capture all potential correct traceability links and incorrect ones.
   * (iii2) **Hypotheses** : 
-  * (iii3) **Commentary** :
+    * Clustering will be able to group correct and incorrect links can be grouped in high-quality and low-quality links respectively. Thus, the performance of IR-based tracing can be enhanced by selecting candidate links from high-quality clusters.
+    * The problem of consistency and effectiveness can be overcome by automatic generation of traceability links by exploiting Information Retrieval methods like Vector Space Model, Probablistic Network Model adn Latent Semantic Indexing.
+    * The proposed method advances the fundamental understanding about the role clustering plays in traceability, but also enables principled ways to increase the practicality of automated tracing tools.
+  * (iii3) **Patterns / Anti-Patterns** :
   * (iii4) **New Results** :
 
 ## (iv) Improvisations:
