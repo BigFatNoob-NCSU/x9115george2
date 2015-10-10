@@ -19,6 +19,8 @@
     * The problem of consistency and effectiveness can be overcome by automatic generation of traceability links by exploiting Information Retrieval methods like Vector Space Model, Probablistic Network Model adn Latent Semantic Indexing.
     * The proposed method advances the fundamental understanding about the role clustering plays in traceability, but also enables principled ways to increase the practicality of automated tracing tools.
   * (iii3) **Patterns / Anti-Patterns** :
+    * **_Patterns_** :
+    * **_Anti Patterns_** :
   * (iii4) **New Results** :
 
 ## (iv) Improvisations:
