@@ -10,6 +10,10 @@
 
 ## (iii) Artifacts
   * (iii1) **Motivation** :
+    * Due to the inherent trade-off between recall and pre- cision, information retrieval methods cannot achieve a high coverage without also retrieving a great number of false positives, causing a significant drop in result accuracy.
+    * Traceability has since been shown to be critical for a wide variety of software engineering activities, including verification and validation (V&V), risk assessment, and change impact analysis. However, practitioners often fail to implement consistent and effective traceability processes if the traces are maintained manually.
+    * Currently, IR-based tracing tools favor recall over pre- cision. This is mainly because commission errors (false positives) are easier to deal with than omission errors (false negatives). However, retrieving an excessive number of links can seriously affect the practicality of such tools.
+    * The overarching goal of the proposed method is to capture all potential correct traceability links and incorrect ones.
   * (iii2) **Hypotheses** : 
   * (iii3) **Commentary** :
   * (iii4) **New Results** :
