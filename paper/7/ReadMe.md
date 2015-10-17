@@ -1,5 +1,5 @@
 # Summary
-## (i) Reference :Nan Niu and Anas Mahmoud @International Requirements Engineering Conference 2002. Enhancing Candidate Link Generation for Requirements Tracing: The Cluster Hypothesis Revisited. [Paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6345842)
+## (i) Reference :Nan Niu and Anas Mahmoud @International Requirements Engineering Conference 2012. Enhancing Candidate Link Generation for Requirements Tracing: The Cluster Hypothesis Revisited. [Paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6345842)
 
 ## (ii) Keywords
 
