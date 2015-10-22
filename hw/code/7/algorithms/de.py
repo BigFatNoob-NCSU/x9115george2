@@ -115,6 +115,8 @@ class DE(Algorithm):
     front = Front()
     evals = 0
     pop = self.generate(settings.candidates)
+    s_pop = sorted(pop, key=lambda x: model.energy(x.evaluate(model)), reverse=settings.better==gt)
+    best_energy = model.energy(s_pop[0].evaluate(model))
     evals += settings.candidates
     for _ in range(self.settings.gens):
       out = ""
@@ -124,7 +126,6 @@ class DE(Algorithm):
         mutant = self.mutate(point, pop)
         key = " ."
         if not model.check_constraints(mutant.decisions):
-          key = " ?"
           out += key
           continue
         mutated_obj = mutant.evaluate(model)
@@ -134,9 +135,13 @@ class DE(Algorithm):
           key = " +"
           clones.remove(point)
           clones.append(mutant)
+          energy = model.energy(mutant.evaluate(model))
+          if settings.better(energy, best_energy):
+            key = " ?"
+            best_energy = energy
         out += key
       if settings.verbose:
-        s_pop = sorted(pop, key=lambda x: model.energy(x.evaluate(model)), reverse=settings.better==gt)
+        s_pop = sorted(clones, key=lambda x: model.energy(x.evaluate(model)), reverse=settings.better==gt)
         print(trunc(s_pop[0].evaluate(model)), out)
       pop = clones
     front.points = pop
