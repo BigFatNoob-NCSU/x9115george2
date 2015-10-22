@@ -72,3 +72,8 @@ george.xml
 .idea/*
 Project_Default.xml
 profiles_settings.xml
+
+#Latex
+*.log
+*.aux
+*.synctex.gz
