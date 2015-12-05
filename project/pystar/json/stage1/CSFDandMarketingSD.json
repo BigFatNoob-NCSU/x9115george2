@@ -1,0 +1,681 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 3142, 
+            "source": "Regional\\nContact management", 
+            "target": "Event coordination", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3143, 
+            "source": "Get Corporate Partner Information from DL", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3144, 
+            "source": "Single charitable registration number", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3145, 
+            "source": "Provide free services", 
+            "target": " Free services", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3146, 
+            "source": "Regional\\nContact management", 
+            "target": "Regional Staff feel included", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3147, 
+            "source": "Up to date corporate partner information", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 3148, 
+            "source": "Regional\\nContact management", 
+            "target": "Communicate with head office ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }
+    ], 
+    "name": "CSFDandMarketingSD", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Market CS Service", 
+            "name": "! Market CS Service", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Exclusive Relationships [Official Partners] ", 
+            "name": "Exclusive Relationships [Official Partners] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Up to date corporate partner information", 
+            "name": "Up to date corporate partner information", 
+            "to_edges": [
+                3147
+            ], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Online Donor Technology", 
+            "name": "Provide Online Donor Technology", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Pledge\\nDuring event", 
+            "name": "Pledge\\nDuring event", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accountability of services", 
+            "name": "Accountability of services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Recognize\\nSponsor contribution ", 
+            "name": "Recognize\\nSponsor contribution ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Write Articles for Magazines ", 
+            "name": "! Write Articles for Magazines ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Exclusive Brand and Logo use", 
+            "name": "Exclusive Brand and Logo use", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "High Response [Individual Donors] ", 
+            "name": "High Response [Individual Donors] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Single charitable registration number", 
+            "name": "Single charitable registration number", 
+            "to_edges": [
+                3144
+            ], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "National Event Calendar", 
+            "name": "National Event Calendar", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Quality [Services] ", 
+            "name": "Quality [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Engage employees in events", 
+            "name": "*Engage employees in events", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "CS Stories", 
+            "name": "CS Stories", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide receipts", 
+            "name": "Provide receipts", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Collect Pledge online", 
+            "name": "Collect Pledge online", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free advertisement", 
+            "name": "Free advertisement", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Published CS Stories", 
+            "name": "Published CS Stories", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Access Speed [  Regional Offices to Document Library]", 
+            "name": "Increase Access Speed [  Regional Offices to Document Library]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Engage Employees in events", 
+            "name": "Engage Employees in events", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Funds", 
+            "name": "Funds", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                3146
+            ], 
+            "id": "Regional Staff feel included", 
+            "name": "Regional Staff feel included", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsorship proposal", 
+            "name": "Sponsorship proposal", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                3142
+            ], 
+            "id": "Event coordination", 
+            "name": "Event coordination", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Follow Highest Ethical Guidelines ", 
+            "name": "Follow Highest Ethical Guidelines ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Acquire public speaking skills", 
+            "name": "!Acquire public speaking skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Create General Ledgers ", 
+            "name": "Create General Ledgers ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Regional\\nContact management", 
+            "name": "Regional\\nContact management", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                3143, 
+                3144, 
+                3147
+            ], 
+            "id": "Regional\\nContact management", 
+            "name": "Regional\\nContact management", 
+            "to_edges": [
+                3142, 
+                3146, 
+                3148
+            ], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsor Logo", 
+            "name": "Sponsor Logo", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Provide compiled call data ", 
+            "name": "! Provide compiled call data ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                3145
+            ], 
+            "id": " Free services", 
+            "name": " Free services", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Use sponsor marketing channels", 
+            "name": "Use sponsor marketing channels", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Get Corporate Partner Information from DL", 
+            "name": "Get Corporate Partner Information from DL", 
+            "to_edges": [
+                3143
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage Receivables ", 
+            "name": "Manage Receivables ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Demonstrable Services ", 
+            "name": "Demonstrable Services ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide fundraising services", 
+            "name": "Provide fundraising services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide fundraising services", 
+            "name": "Provide fundraising services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Document Library System", 
+            "name": "Provide Document Library System", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Provide money for services", 
+            "name": "! Provide money for services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage Accounts ", 
+            "name": "Manage Accounts ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Counselor Speak on Kids Issues in General ", 
+            "name": "! Counselor Speak on Kids Issues in General ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "[Increase] Awareness", 
+            "name": "[Increase] Awareness", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide funds", 
+            "name": "Provide funds", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Promotion Resources", 
+            "name": "Promotion Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide free services", 
+            "name": "Provide free services", 
+            "to_edges": [
+                3145
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Experienced [marketing partners]", 
+            "name": "Experienced [marketing partners]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Credibility [CS Brand] ", 
+            "name": "Credibility [CS Brand] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Get sponsors for events", 
+            "name": "Get sponsors for events", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Services be provided for Kids Bullying Line", 
+            "name": "! Services be provided for Kids Bullying Line", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Pledge online", 
+            "name": "Pledge online", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Retain [Sponsors] ", 
+            "name": "Retain [Sponsors] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Presentation Skills ", 
+            "name": "Presentation Skills ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Philanthropic donations ", 
+            "name": "Philanthropic donations ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage\\nPartner Relationship", 
+            "name": "Manage\\nPartner Relationship", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Write Articles for Website ", 
+            "name": "! Write Articles for Website ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Timely services", 
+            "name": "Timely services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Up to Date [Information on programs] ", 
+            "name": "Up to Date [Information on programs] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsor partner\\ncontacts", 
+            "name": "Sponsor partner\\ncontacts", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                3148
+            ], 
+            "id": "Communicate with head office ", 
+            "name": "Communicate with head office ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Agreement", 
+            "name": "Agreement", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Project Management Skills ", 
+            "name": "Project Management Skills ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Quick [Response to Sponsors] ", 
+            "name": "Quick [Response to Sponsors] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Responsible Usage [Sponsor Funds] ", 
+            "name": "Responsible Usage [Sponsor Funds] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Participate in events", 
+            "name": "Participate in events", 
+            "to_edges": [], 
+            "type": "task"
+        }
+    ]
+}

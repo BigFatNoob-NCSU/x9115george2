@@ -1,0 +1,2940 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 4036, 
+            "source": "Single charitable registration number", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4037, 
+            "source": "Regional\\nContact management", 
+            "target": "Event coordination", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4038, 
+            "source": "Get Corporate Partner Information from DL", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4039, 
+            "source": "Regional\\nContact management", 
+            "target": "Regional Staff feel included", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4040, 
+            "source": "Up to date corporate partner information", 
+            "target": "Regional\\nContact management", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4041, 
+            "source": "Provide free services", 
+            "target": " Free services", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4042, 
+            "source": "Regional\\nContact management", 
+            "target": "Communicate with head office ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }
+    ], 
+    "name": "CSSimplified", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Consideration of Feedback [Managers]", 
+            "name": "Consideration of Feedback [Managers]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Access Speed [  Regional Offices to DL]", 
+            "name": "Increase Access Speed [  Regional Offices to DL]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Engagement Student Ambassadors in promoting awareness", 
+            "name": "*Engagement Student Ambassadors in promoting awareness", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Easily Accessible Technology Instructions1", 
+            "name": "Easily Accessible Technology Instructions1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Cyber Caf\u00e9/Portal/Chat Room", 
+            "name": "Kids Use Cyber Caf\u00e9/Portal/Chat Room", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Follow Highest Ethical Guidelines ", 
+            "name": "Follow Highest Ethical Guidelines ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Voice Counselling", 
+            "name": "Kids Use Voice Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Help Put on SA Training Conferences", 
+            "name": "Help Put on SA Training Conferences", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Ask a Counsellor Section\\ns", 
+            "name": "Kids Use Ask a Counsellor Section\\ns", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "CS Be Not for Profit", 
+            "name": "CS Be Not for Profit", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use One-On-One Chat Rooms", 
+            "name": "Kids Use One-On-One Chat Rooms", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsor partner\\ncontacts", 
+            "name": "Sponsor partner\\ncontacts", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Strategic Blue Print", 
+            "name": "Strategic Blue Print", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement Phone Feedback", 
+            "name": "!Implement Phone Feedback", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sign Contract", 
+            "name": "Sign Contract", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Training CDs", 
+            "name": "Training CDs", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain/Implement CS Services", 
+            "name": "Maintain/Implement CS Services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Agreement", 
+            "name": "Agreement", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "SA s are Organized", 
+            "name": "SA s are Organized", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "National Event Calendar", 
+            "name": "National Event Calendar", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Implement Email for Counsellors", 
+            "name": "*Implement Email for Counsellors", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Similarity with other parents  problems ", 
+            "name": "Similarity with other parents  problems ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement Text Messaging", 
+            "name": "!Implement Text Messaging", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Patient [Counselor] ", 
+            "name": "Patient [Counselor] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Immediacy [Services] 1", 
+            "name": "Immediacy [Services] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Moderate Discussion Boards", 
+            "name": "!Moderate Discussion Boards", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide free services", 
+            "name": "Provide free services", 
+            "to_edges": [
+                4041
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Create General Ledgers ", 
+            "name": "Create General Ledgers ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Presentation Skills ", 
+            "name": "Presentation Skills ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accessible Resources for Counselors", 
+            "name": "Accessible Resources for Counselors", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Implement Email Counselling", 
+            "name": "Implement Email Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Connect with Other Kids ", 
+            "name": "Connect with Other Kids ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Acquire Public Speaking Skills", 
+            "name": "Acquire Public Speaking Skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Counselling Resource", 
+            "name": "Increase Counselling Resource", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Write Articles for Magazines ", 
+            "name": "! Write Articles for Magazines ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "SA s are Confident", 
+            "name": "SA s are Confident", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Have Time for School", 
+            "name": "Have Time for School", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Promote CS", 
+            "name": "Promote CS", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Increase Writing Skills", 
+            "name": "*Increase Writing Skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids read Polls about Kids", 
+            "name": "Kids read Polls about Kids", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Web Counselling with Video", 
+            "name": "Provide Web Counselling with Video", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*High Quality Counselling", 
+            "name": "*High Quality Counselling", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Send out Emails", 
+            "name": "Send out Emails", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Software", 
+            "name": "Software", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Up to Date [Information on programs] ", 
+            "name": "Up to Date [Information on programs] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Web Counselling with Audio", 
+            "name": "Provide Web Counselling with Audio", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                4042
+            ], 
+            "id": "Communicate with head office ", 
+            "name": "Communicate with head office ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Services Be Bilingual", 
+            "name": "Services Be Bilingual", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement Cyber Caf\u00e9/Portal/Chat Room", 
+            "name": "!Implement Cyber Caf\u00e9/Portal/Chat Room", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide receipts", 
+            "name": "Provide receipts", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Collect Pledge online", 
+            "name": "Collect Pledge online", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Parents Use Service to Talk to Each Other ", 
+            "name": "!Parents Use Service to Talk to Each Other ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Write Articles for Newspaper", 
+            "name": "Write Articles for Newspaper", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Staggering of Schedules", 
+            "name": "Reduce Staggering of Schedules", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Calls Be Recorded into a Data Base", 
+            "name": "!Calls Be Recorded into a Data Base", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Engagement [Sponsor Employees in Promoting Awareness] ", 
+            "name": "Engagement [Sponsor Employees in Promoting Awareness] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Services Self Serve", 
+            "name": "Web Services Self Serve", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain Services above Competition", 
+            "name": "Maintain Services above Competition", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Positive [Reputation of CS]", 
+            "name": "Positive [Reputation of CS]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Increase [IT Training for Counsellors]", 
+            "name": "*Increase [IT Training for Counsellors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Project Management Skills ", 
+            "name": "Project Management Skills ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Support Analysis [Counsellors Time]", 
+            "name": "Support Analysis [Counsellors Time]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Happiness [Counsellors]", 
+            "name": "Happiness [Counsellors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Implement Information Section", 
+            "name": "Implement Information Section", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement General Questions and Answers", 
+            "name": "!Implement General Questions and Answers", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Services be provided for Kids Bullying Line", 
+            "name": "! Services be provided for Kids Bullying Line", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Experienced [marketing partners]", 
+            "name": "Experienced [marketing partners]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Video Counselling", 
+            "name": "Kids Use Video Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Hardware", 
+            "name": "Hardware", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Ownership of Services [Kids] ", 
+            "name": "Ownership of Services [Kids] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Implement Video Counselling", 
+            "name": "Implement Video Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain Ask a Counsellor Section", 
+            "name": "Maintain Ask a Counsellor Section", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Maintain Phone Services", 
+            "name": "*Maintain Phone Services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Services Be Free", 
+            "name": "Services Be Free", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increased SA Resources", 
+            "name": "Increased SA Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "CS Stories", 
+            "name": "CS Stories", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Confidentiality [Services] ", 
+            "name": "Confidentiality [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                4037
+            ], 
+            "id": "Event coordination", 
+            "name": "Event coordination", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Acquire Fundraising Skills", 
+            "name": "Acquire Fundraising Skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Oracle", 
+            "name": "Oracle", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsorship proposal", 
+            "name": "Sponsorship proposal", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Get Corporate Partner Information from DL", 
+            "name": "Get Corporate Partner Information from DL", 
+            "to_edges": [
+                4038
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Development of Public Education Program", 
+            "name": "Increase Development of Public Education Program", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Funds", 
+            "name": "Funds", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Encourage Kids Using Web Services to Use Phone Services", 
+            "name": "Encourage Kids Using Web Services to Use Phone Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Create Life Long Volunteer Spirit", 
+            "name": "Create Life Long Volunteer Spirit", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement One-On-One Chat Rooms", 
+            "name": "!Implement One-On-One Chat Rooms", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improved Writing Skills [Counsellors]", 
+            "name": "Improved Writing Skills [Counsellors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Run Fundraiser in Schools", 
+            "name": "Run Fundraiser in Schools", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Friendly [Web site] ", 
+            "name": "Friendly [Web site] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Facilitate Faster Changes in Counsellor Duties", 
+            "name": "Facilitate Faster Changes in Counsellor Duties", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase [Awareness]", 
+            "name": "Increase [Awareness]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain Phone Counselling", 
+            "name": "Maintain Phone Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Demonstrable Services ", 
+            "name": "Demonstrable Services ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Up to date corporate partner information", 
+            "name": "Up to date corporate partner information", 
+            "to_edges": [
+                4040
+            ], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accommodate Schedules [Counselling Managers]", 
+            "name": "Accommodate Schedules [Counselling Managers]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Anonymity [Counsellors]", 
+            "name": "Anonymity [Counsellors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Negotiate with Counsellors Union", 
+            "name": "Negotiate with Counsellors Union", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Find Help with Presentations", 
+            "name": "Find Help with Presentations", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Give CS Presentations1", 
+            "name": "Give CS Presentations1", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve Image to Kids2", 
+            "name": "Improve Image to Kids2", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Perform Counselling as Instructed By Supervisor", 
+            "name": "Perform Counselling as Instructed By Supervisor", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Match Fundraising targets", 
+            "name": "Match Fundraising targets", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Engagement [Sponsor Employees in Promoting Awareness] 1", 
+            "name": "Engagement [Sponsor Employees in Promoting Awareness] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "High Quality [Services] 1", 
+            "name": "High Quality [Services] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Get sponsors for events", 
+            "name": "Get sponsors for events", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Counselling Workshops", 
+            "name": "Counselling Workshops", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Available [Services] ", 
+            "name": "Available [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Put Content Onto Website", 
+            "name": "Put Content Onto Website", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "High Degree of Similarity [Between Services Provided]", 
+            "name": "High Degree of Similarity [Between Services Provided]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Promotion Resources", 
+            "name": "Promotion Resources", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Help As Many Kids as Possible", 
+            "name": "*Help As Many Kids as Possible", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Regional Offices Resources", 
+            "name": "Regional Offices Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Decrease [Phone Waiting Time] ", 
+            "name": "Decrease [Phone Waiting Time] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Counselling Policies Be Followed", 
+            "name": "Counselling Policies Be Followed", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Donor/Accounting Data Base", 
+            "name": "Donor/Accounting Data Base", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Research on Kids Be Acquired", 
+            "name": "Research on Kids Be Acquired", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Moderator Meetings", 
+            "name": "Web Moderator Meetings", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Trust [of Sponsors towards CS] ", 
+            "name": "Trust [of Sponsors towards CS] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Sufficient Counselling Resources", 
+            "name": "*Sufficient Counselling Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Maintain PHL Phone Services", 
+            "name": "*Maintain PHL Phone Services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Decrease [Phone Waiting Time] 1", 
+            "name": "Decrease [Phone Waiting Time] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve Counselling Skills", 
+            "name": "Improve Counselling Skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Counselling Policies", 
+            "name": "Counselling Policies", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement\\nTool to Allow Parents to Talk to Each Other ", 
+            "name": "!Implement\\nTool to Allow Parents to Talk to Each Other ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Connect Back to the Community ", 
+            "name": "Connect Back to the Community ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Document Library System", 
+            "name": "Provide Document Library System", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Write Articles for Website ", 
+            "name": "! Write Articles for Website ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Server1", 
+            "name": "Web Server1", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!IT Systems Be Integrated", 
+            "name": "!IT Systems Be Integrated", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Phone Counselling", 
+            "name": "Kids Use Phone Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids read General Questions and Answers", 
+            "name": "Kids read General Questions and Answers", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Voice Counselling be Performed", 
+            "name": "Voice Counselling be Performed", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Anonymity [Services] ", 
+            "name": "Anonymity [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Tape Recording Technology", 
+            "name": "Tape Recording Technology", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve [Call Recording Equipment]", 
+            "name": "Improve [Call Recording Equipment]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain Web Services", 
+            "name": "Maintain Web Services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids use get Informed Section of Web Site", 
+            "name": "Kids use get Informed Section of Web Site", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*High Quality Counselling1", 
+            "name": "*High Quality Counselling1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                4036, 
+                4038, 
+                4040
+            ], 
+            "id": "Regional\\nContact management", 
+            "name": "Regional\\nContact management", 
+            "to_edges": [
+                4037, 
+                4039, 
+                4042
+            ], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Counsellor Experience", 
+            "name": "Counsellor Experience", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Call Statistics", 
+            "name": "Call Statistics", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Parents Use Bulletin Board with Replies", 
+            "name": "Parents Use Bulletin Board with Replies", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Involve CS in Events", 
+            "name": "Involve CS in Events", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Perform Email Counselling", 
+            "name": "!Perform Email Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Service Resources", 
+            "name": "Service Resources", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Retain [Sponsors] ", 
+            "name": "Retain [Sponsors] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Timely services", 
+            "name": "Timely services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!A Training Computer Be Present", 
+            "name": "!A Training Computer Be Present", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Speak at Fundraisers1", 
+            "name": "Speak at Fundraisers1", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Involvement [Not For Profit Partners in Events]", 
+            "name": "Involvement [Not For Profit Partners in Events]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Participate in events", 
+            "name": "Participate in events", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Control of Counselling Work", 
+            "name": "Control of Counselling Work", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Exclusive Relationships [Official Partners] ", 
+            "name": "Exclusive Relationships [Official Partners] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Contagion Effect [Of Harmful Actions]1", 
+            "name": "Reduce Contagion Effect [Of Harmful Actions]1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Properly and Suitably Equipped in IT [to Accomplish CS Needs]", 
+            "name": "Properly and Suitably Equipped in IT [to Accomplish CS Needs]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Second Reading of Web Posts", 
+            "name": "Second Reading of Web Posts", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve Image to Kids1", 
+            "name": "Improve Image to Kids1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Avoid Presence of Pedofiles", 
+            "name": "Avoid Presence of Pedofiles", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Professional Counsellors Be Used", 
+            "name": "Professional Counsellors Be Used", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Measure Success of Services", 
+            "name": "Measure Success of Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Online Donor Technology", 
+            "name": "Provide Online Donor Technology", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Provide compiled call data ", 
+            "name": "! Provide compiled call data ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage Receivables ", 
+            "name": "Manage Receivables ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve Quality Assurance Technology", 
+            "name": "Improve Quality Assurance Technology", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Help Plan and Put on Reconnection Conferences", 
+            "name": "Help Plan and Put on Reconnection Conferences", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Confidentiality [Services] 1", 
+            "name": "Confidentiality [Services] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Performance Review Information Be Collected in Data Base", 
+            "name": "!Performance Review Information Be Collected in Data Base", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Server", 
+            "name": "Web Server", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Long Term [Funding] ", 
+            "name": "Long Term [Funding] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                4041
+            ], 
+            "id": " Free services", 
+            "name": " Free services", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Friendly Web Site", 
+            "name": "Friendly Web Site", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free Web Server", 
+            "name": "Free Web Server", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Responsible Usage [Sponsor Funds] ", 
+            "name": "Responsible Usage [Sponsor Funds] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Feedback", 
+            "name": "Feedback", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Give CS Presentations", 
+            "name": "Give CS Presentations", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Avoid Over-Marketing Services ", 
+            "name": "Avoid Over-Marketing Services ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*High Quality Services", 
+            "name": "*High Quality Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Implement Categorization Tool", 
+            "name": "*Implement Categorization Tool", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Happiness [Student Ambassadors]", 
+            "name": "Happiness [Student Ambassadors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement Bulletin Board with Replies", 
+            "name": "!Implement Bulletin Board with Replies", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve [IT Skills]", 
+            "name": "Improve [IT Skills]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Engagement of Sponsor Employees in Fund Development", 
+            "name": "Engagement of Sponsor Employees in Fund Development", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Professional Work Environment", 
+            "name": "Professional Work Environment", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Funding for Training", 
+            "name": "Increase Funding for Training", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Share PAP in Document Library", 
+            "name": "Share PAP in Document Library", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Engage Employees in events", 
+            "name": "Engage Employees in events", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free Software", 
+            "name": "Free Software", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Empowering Kids to Help Themselves", 
+            "name": "Empowering Kids to Help Themselves", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Counselling Resources", 
+            "name": "Counselling Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Connect Back to the Community 1", 
+            "name": "Connect Back to the Community 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Improve Image to Kids", 
+            "name": "Improve Image to Kids", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Current Resource Links", 
+            "name": "Current Resource Links", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Contagion Effect [Of Harmful Actions]", 
+            "name": "Reduce Contagion Effect [Of Harmful Actions]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Undergo Clinical Review", 
+            "name": "Undergo Clinical Review", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Help Kids", 
+            "name": "Help Kids", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increased Caution [Content of Online Services]", 
+            "name": "Increased Caution [Content of Online Services]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Acquire Volunteer Outreach Skills", 
+            "name": "Acquire Volunteer Outreach Skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Simple [Technology]", 
+            "name": "Simple [Technology]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Market CS Service", 
+            "name": "! Market CS Service", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Quick [Response to Sponsors] ", 
+            "name": "Quick [Response to Sponsors] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Feedback1", 
+            "name": "Feedback1", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Permission for Presentations Be Given", 
+            "name": "Permission for Presentations Be Given", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Exclusive Brand and Logo use", 
+            "name": "Exclusive Brand and Logo use", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Salary", 
+            "name": "*Salary", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Resources [Services]", 
+            "name": "Increase Resources [Services]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Prank Calls", 
+            "name": "Reduce Prank Calls", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Correct Interpretation of Counsel", 
+            "name": "Correct Interpretation of Counsel", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accountability of services", 
+            "name": "Accountability of services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Community Service Hours Completed", 
+            "name": "Community Service Hours Completed", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Upgrades", 
+            "name": "Upgrades", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Allow User to Log In", 
+            "name": "*Allow User to Log In", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Diffuse Conflict with Parent", 
+            "name": "Diffuse Conflict with Parent", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Use sponsor marketing channels", 
+            "name": "Use sponsor marketing channels", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Philanthropic donations ", 
+            "name": "Philanthropic donations ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "High Quality [Services] ", 
+            "name": "High Quality [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Promotion Resources1", 
+            "name": "Promotion Resources1", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increased availability to sponsors", 
+            "name": "Increased availability to sponsors", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Pledge\\nDuring event", 
+            "name": "Pledge\\nDuring event", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Software", 
+            "name": "Web Software", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Tapes", 
+            "name": "Tapes", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase IT Resources", 
+            "name": "Increase IT Resources", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Historical Data of Call Volumes", 
+            "name": "Historical Data of Call Volumes", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage Accounts ", 
+            "name": "Manage Accounts ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Inform kids about anonymity of service", 
+            "name": "Inform kids about anonymity of service", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "School Initiates Presenation", 
+            "name": "School Initiates Presenation", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Volunteers", 
+            "name": "Increase Volunteers", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Speaches", 
+            "name": "Speaches", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Feedback Form Software", 
+            "name": "Feedback Form Software", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide funds", 
+            "name": "Provide funds", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Training Be Received", 
+            "name": "Training Be Received", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase Emphasis on Online Feedback Form", 
+            "name": "Increase Emphasis on Online Feedback Form", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Written Counselling", 
+            "name": "Provide Written Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Caller Statistics", 
+            "name": "Caller Statistics", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Counselling", 
+            "name": "Provide Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Phone Library of Recorded Messages", 
+            "name": "Phone Library of Recorded Messages", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increased Peer Support", 
+            "name": "Increased Peer Support", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Text Messaging", 
+            "name": "Kids Use Text Messaging", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!An IT Trainer Be Present", 
+            "name": "!An IT Trainer Be Present", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free Upgrades", 
+            "name": "Free Upgrades", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Elaborate Fundraising targets", 
+            "name": "Elaborate Fundraising targets", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Speak at Fundraisers", 
+            "name": "Speak at Fundraisers", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accountability of services1", 
+            "name": "Accountability of services1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Information", 
+            "name": "Information", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Increase Number of Services", 
+            "name": "*Increase Number of Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Clearer Call Classification Categories", 
+            "name": "Clearer Call Classification Categories", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Decrease Clumsiness [Technology]", 
+            "name": "Decrease Clumsiness [Technology]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Trust [of Kids]", 
+            "name": "Trust [of Kids]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Pledge online", 
+            "name": "Pledge online", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Implement Polls about Kids", 
+            "name": "!Implement Polls about Kids", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Provide money for services", 
+            "name": "! Provide money for services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "IT Resources", 
+            "name": "IT Resources", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Positive Internal Opinion", 
+            "name": "Positive Internal Opinion", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Credibility [CS Brand] ", 
+            "name": "Credibility [CS Brand] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Double Head Set", 
+            "name": "Double Head Set", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Bulletin Board with Replies", 
+            "name": "Kids Use Bulletin Board with Replies", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Recognition", 
+            "name": "Recognition", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Acquire public speaking skills", 
+            "name": "!Acquire public speaking skills", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain Get Informed Section of Web Site", 
+            "name": "Maintain Get Informed Section of Web Site", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Implement Board with Replies", 
+            "name": "Implement Board with Replies", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Similarity with other kids  problems ", 
+            "name": "Similarity with other kids  problems ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Single charitable registration number", 
+            "name": "Single charitable registration number", 
+            "to_edges": [
+                4036
+            ], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Collaborate with Not for Profit Partners on Services", 
+            "name": "Collaborate with Not for Profit Partners on Services", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free advertisement", 
+            "name": "Free advertisement", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Maintain/ Implement PHL Services", 
+            "name": "Maintain/ Implement PHL Services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Number of Steps [Web Posting Technology]", 
+            "name": "Reduce Number of Steps [Web Posting Technology]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                4039
+            ], 
+            "id": "Regional Staff feel included", 
+            "name": "Regional Staff feel included", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Anonymity [Parents]", 
+            "name": "Anonymity [Parents]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Put on SA Training Conferences", 
+            "name": "Put on SA Training Conferences", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Parents Use Information Section", 
+            "name": "Parents Use Information Section", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Easily Accessible Technology Instructions", 
+            "name": "Easily Accessible Technology Instructions", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide fundraising services", 
+            "name": "Provide fundraising services", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increase IT Methods to Acquire Feedback", 
+            "name": "Increase IT Methods to Acquire Feedback", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Provide Information", 
+            "name": "Provide Information", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Avoid Liability Problems", 
+            "name": "Avoid Liability Problems", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Success Be Tracked in Community Resources", 
+            "name": "Success Be Tracked in Community Resources", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "SA s are Outgoing", 
+            "name": "SA s are Outgoing", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Kids Use Email Counselling", 
+            "name": "Kids Use Email Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Immediacy [Services] ", 
+            "name": "Immediacy [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Complete Resource Links", 
+            "name": "Complete Resource Links", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "name": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Sponsor Logo", 
+            "name": "Sponsor Logo", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Availability [Services] 1", 
+            "name": "Availability [Services] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "!Moderate a Chat", 
+            "name": "!Moderate a Chat", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Parents Use Phone Counselling", 
+            "name": "Parents Use Phone Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Implement Voice Counselling", 
+            "name": "Implement Voice Counselling", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Recognize\\nSponsor contribution ", 
+            "name": "Recognize\\nSponsor contribution ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Easy [Access to Post Reply] ", 
+            "name": "Easy [Access to Post Reply] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Avoid Dialogues", 
+            "name": "Avoid Dialogues", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Create Counselling Posts", 
+            "name": "Create Counselling Posts", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Free Hardware", 
+            "name": "Free Hardware", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Make New Friends", 
+            "name": "Make New Friends", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Plan and Put on Reconnection Conferences", 
+            "name": "Plan and Put on Reconnection Conferences", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Web Site Content", 
+            "name": "Web Site Content", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Telephony Be Implemented and Managed", 
+            "name": "Telephony Be Implemented and Managed", 
+            "to_edges": [], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Availability [Services] ", 
+            "name": "Availability [Services] ", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Easier to Find Posts [Web Posting Technology]", 
+            "name": "Easier to Find Posts [Web Posting Technology]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Misconceptions", 
+            "name": "Reduce Misconceptions", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Accountability of services2", 
+            "name": "Accountability of services2", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Help with Presentations", 
+            "name": "Help with Presentations", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Manage\\nPartner Relationship", 
+            "name": "Manage\\nPartner Relationship", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Help As Many Kids as Possible1", 
+            "name": "*Help As Many Kids as Possible1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Market fundraising events", 
+            "name": "Market fundraising events", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Happiness [Counselling Management]", 
+            "name": "Happiness [Counselling Management]", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Quality SA Services", 
+            "name": "Quality SA Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Published CS Stories", 
+            "name": "Published CS Stories", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Get web event technology", 
+            "name": "Get web event technology", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Give Back to Community", 
+            "name": "Give Back to Community", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "*Implement Bulletin Board", 
+            "name": "*Implement Bulletin Board", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "! Counselor Speak on Kids Issues in General ", 
+            "name": "! Counselor Speak on Kids Issues in General ", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Avoid Relationships with Specific Counsellor", 
+            "name": "Avoid Relationships with Specific Counsellor", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Remember Locations of Resouces", 
+            "name": "Remember Locations of Resouces", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Reduce Cost of Counselling HR", 
+            "name": "Reduce Cost of Counselling HR", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "SA s are Enthusiastic", 
+            "name": "SA s are Enthusiastic", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Patient [Counselor] 1", 
+            "name": "Patient [Counselor] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Easy [Access to Post Reply] 1", 
+            "name": "Easy [Access to Post Reply] 1", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": "Efficient Services", 
+            "name": "Efficient Services", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }
+    ]
+}
