@@ -175,5 +175,3 @@ modelers = [CSServices, CSCounselling, CSCounsellingManagement,
           CSITDepartment, CSSAProgram, CSSimplified, KidsAndYouth, Parents, OOOChatRooms,
           DelayModeratedBulletinBoard]
 
-for model in modelers:
-  model()

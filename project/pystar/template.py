@@ -426,15 +426,3 @@ class Graph(O):
       edge.target = target
       edges.append(edge)
     return Graph(name=graph_name, nodes=nodes, edges=edges)
-
-if __name__ == "__main__":
-  resources = ["Service Resources", "Web Server", "Feedback Form Software", "Web Software",
-                 "Strategic Blue Print", "Feedback", "Web Site Content", "Phone Library of Recorded Messages",
-                 "Feedback1"]
-  containers = ["CS", "Fund Development and Marketing", "Provincial government",
-                "CS Technology Services", "CS Service", "Web Service", "Phone Service",
-                "Counselling Management", "PHL Service", "Parents", "IT Department",
-                "Web Task Force", "CS Web Services", "CS Phone Services", "PHL Phone Services",
-                "PHL Web Services", "Counselling", "Kids and Youth"]
-  graph = Graph.from_dot("CSServices", "pystar/CSServices.gv", resources, containers)
-  Graph.json(graph, "pystar/json/%s.json"%graph.name)
