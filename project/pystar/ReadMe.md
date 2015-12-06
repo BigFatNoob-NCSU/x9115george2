@@ -1,4 +1,4 @@
 ## Run the Program
-Import the respective model you need to run in runner.y and run
+Import the respective model you need to run in runner.py and run
 
 `python runner.py`
