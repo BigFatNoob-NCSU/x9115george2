@@ -40,6 +40,37 @@ The figure below highlights the model with an example
 In the above figure "Restrict Structure of Password" and "Ask for Secret Question" are identified as unsatisfied and satisfied respectively. These values are propagated through the edges to compute the value of each node. The satisifability of each node is highlighted on it as the values are propogated.
 
 ## III - Py*
+ Py* is developed in python where each node/edge is represented as a python class. The class hierachy with each base class followed by their child classes is as follows
+ 
+ ```
+ Component
+ |.. Node
+ |.. |.. Task
+ |.. |.. Resource
+ |.. |.. Goal
+ |.. |.. Softgoal
+ |.. Edge
+ |.. |.. Dependency
+ |.. |.. Decomposition
+ |.. |.. |.. AND
+ |.. |.. |.. OR
+ |.. |.. Contribution
+ |.. |.. |.. Make
+ |.. |.. |.. Help
+ |.. |.. |.. Hurt
+ |.. |.. |.. Break
+```
+
+The graph is evaluated as follows:
+* A node is selected at random from the graph.
+* The incoming edges of the node are identified and all the child nodes are recursively evaluated.
+* Two kinds of conflicts can arise while evaluating the nodes
+  * The incoming edges can be conflicting. For example, one incoming edge can be **help**, while the other can be **hurt**. In such cases a random value(satisfied or unsatisfied) is assigned to the node.
+  * A loop can exist. i.e While propagating through the nodes, we notice that the same node is visited again. In such cases too, a random value is assigned to the node.
+
+![Witness SR](img/witness.png)
+
+A sample model shown above is represented as follows
 
 ## IV - Experimental Setup
 
