@@ -105,6 +105,24 @@ graph = Graph(name="bCMS_SR_Witness", nodes=N.all, edges=E.all)
 
 ## IV - Experimental Setup
 
+We perform Differential Evolution[3] on a Counselling Services model[4] which contains 263 nodes and 484 edges. 
+The rig is designed as follows:
+* Each input node(Task or Resource) is assigned a random value between 1 and 5.
+* Nodes are visited within the graph at random and evaluated.
+* Once all nodes are evaluated, each objective is computed.
+* Settings of Differential Evolution is as follows
+
+
+|     Setting     |                                       Value                                      |
+|:---------------:|:--------------------------------------------------------------------------------:|
+|   Generations   |                                        100                                       |
+|    Canditates   |                            10 * (number of decisions)                            |
+|  Crossover Rate |                                        0.3                                       |
+| Mutation Factor |                                       0.75                                       |
+|    Objectives   | Number of Softgoals - Max<br> Number of Goals - Max<br> Total Cost of Decisions - Min<br>|
+|   Random Seed   |                                         1                                        |
+
+
 ## V - Results
 
 ## VI - Future Work
@@ -114,4 +132,8 @@ graph = Graph(name="bCMS_SR_Witness", nodes=N.all, edges=E.all)
 ## References
 [1] Yu, E. Towards Modelling and Reasoning Support for Early-Phase Requirements Engineering. Proceedings of the 3rd IEEE Int. Symp. on Requirements Engineering (RE'97) Jan. 6-8, 1997, Washington D.C., USA. pp. 226-235.
 
-[2] _i*_, http://www.cs.toronto.edu/km/istar/
+[2] _i*_, URL: http://www.cs.toronto.edu/km/istar/
+
+[3] R. Storn, and K. Price, "Differential Evolution: A Simple and Efficient Heuristic for Global Optimization Over Continuous Spaces", in Journal of Global Optimization, vol. 11, no. 4, pages 341-359, December, 1997
+
+[4] CS Counselling Service, URL: http://tiny.cc/cs_services
