@@ -77,17 +77,17 @@ from template import *
 
 N = Many()
 # Nodes
-n1 = N + SoftGoal(name = "Provide accurate Information")
-n2 = N + SoftGoal(name = "To know what to do")
-n3 = N + Task(name = "Follow instructions from firemen")
-n4 = N + Task(name = "Provide crisis related info")
-n5 = N + Task(name = "Provide to fireman")
-n6 = N + Task(name = "Provide info to police")
-n7 = N + HardGoal(name = "Receive instructions")
-n8 = N + Resource(name = "Crisis-related information(Fire)")
-n9 = N + Resource(name = "Instructions(Fire)")
-n10 = N + Resource(name = "Instructions(Police)")
-n11 = N + Task(name = "Crisis-related information(Police)")
+n1 = N + SoftGoal(name = "Provide accurate Information", container="Witnesses")
+n2 = N + SoftGoal(name = "To know what to do", container="Witnesses")
+n3 = N + Task(name = "Follow instructions from firemen", container="Witnesses")
+n4 = N + Task(name = "Provide crisis related info", container="Witnesses")
+n5 = N + Task(name = "Provide to fireman", container="Witnesses")
+n6 = N + Task(name = "Provide info to police", container="Witnesses")
+n7 = N + HardGoal(name = "Receive instructions", container="Witnesses")
+n8 = N + Resource(name = "Crisis-related information", container="Fire")
+n9 = N + Resource(name = "Instructions", container="Fire")
+n10 = N + Resource(name = "Instructions", container="Police")
+n11 = N + Task(name = "Crisis-related information", container="Police")
 
 E = Many()
 #Edges
