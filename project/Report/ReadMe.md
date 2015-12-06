@@ -34,7 +34,8 @@ The framework consists of nodes and edges with **Tasks** and **Resources** repre
 * **Means-Ends** : Represents logical OR edges.
 * 
 The figure below highlights the model with an example
-![img/istar.png](I star)
+
+![I star](img/istar.png)
 
 In the above figure "Restrict Structure of Password" and "Ask for Secret Question" are identified as unsatisfied and satisfied respectively. These values are propagated through the edges to compute the value of each node. The satisifability of each node is highlighted on it as the values are propogated.
 
